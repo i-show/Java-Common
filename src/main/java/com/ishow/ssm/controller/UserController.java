@@ -20,8 +20,6 @@ import java.util.List;
 @RequestMapping("/User")
 @Api(tags = "User", description = "用户相关操作")
 public class UserController {
-    @Autowired
-    private HttpServletRequest request;
 
     @Resource
     private UserService userService;

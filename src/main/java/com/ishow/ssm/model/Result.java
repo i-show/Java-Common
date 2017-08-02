@@ -12,11 +12,11 @@ public class Result {
     /**
      * 返回成功
      */
-    public static final int CODE_SUCCESS = 0;
+    public static final int CODE_SUCCESS = 1;
     /**
      * 返回失败
      */
-    public static final int CODE_FAILED = 1;
+    public static final int CODE_FAILED = 0;
     /**
      * 返回的状态码
      */
